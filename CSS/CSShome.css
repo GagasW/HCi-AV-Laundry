@@ -13,8 +13,25 @@ body{
 	margin: 0px;
 }
 
+
+#logtimContainer{
+	margin-right: 0px;
+	background-color:  #3385ff;
+}
+
 #menuContainer{
 	height: 0px;
+}
+
+#Briefpict{
+	max-width: 1366px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Briefholder{
+	background-color:  aqua;
 }
 
 #time{
@@ -22,10 +39,17 @@ body{
 	position: relative;
 }
 
+#times{
+	margin:  0px;
+	font-weight: bolder;
+	font-size: 25px;
+}
+
 .headerUl{
 	text-align: center;
 
-	width: 1366px;
+	margin-right: 10px;
+	max-width: 1366px;
 	height: 79px;
 }
 
@@ -73,3 +97,4 @@ body{
 }
 
 .show{display: block;}
+
