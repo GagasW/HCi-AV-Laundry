@@ -98,3 +98,42 @@ body{
 
 .show{display: block;}
 
+.AdvImg{
+	max-width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.AdvHolder{
+	max-width: 1366px;
+	height: 120px;
+}
+
+.AdvContents{
+	width: 674.5px;
+	height: 120px;
+	display: inline-block;
+}
+
+.AdvHolder p{
+	margin-top: 20px;
+	padding-left: 15px;
+}
+
+.FirstAdv{
+	padding-top: 10px;
+}
+
+.AdvTitle{
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+#One{
+	float: left;
+}
+
+#NeedBGColor{
+	background-color: #3385ff;
+}
