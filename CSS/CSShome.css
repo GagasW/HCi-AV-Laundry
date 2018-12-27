@@ -147,3 +147,52 @@ body{
 #NeedBGColor{
 	background-color: #3385ff;
 }
+
+.SosmedIcon{
+	height: 40px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+
+#IconHolder{
+	text-align: center;
+}
+
+.Footer{
+	background-color: #333333;
+	color: white;
+}
+
+#UpperFooter{
+	height: 220px;
+}
+
+.FooterTitle{
+	text-decoration: underline;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+}
+
+#Left{
+	float: left;
+}
+
+#ContactHolder{
+	text-align: center;
+}
+
+#ContactHolder p{
+	margin: 0px;
+}
+
+.FooterContents{
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 674.5px;
+	height: 220px;
+	display: inline-block;
+}

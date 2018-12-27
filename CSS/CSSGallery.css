@@ -109,20 +109,25 @@ body{
 	25% {
 		background: url("../Pictures/Slideshow2.jpg");
 		background-repeat: no-repeat;
+		background-size: 100% 100%;
 	}
 
 	50% {
 		background: url("../Pictures/Slideshow3.jpg");
 		background-repeat: no-repeat;
+		background-size: 100% 100%;
 	}
 
 	75% {
 		background: url("../Pictures/Slideshow4.jpg");
 		background-repeat: no-repeat;
+		background-size: 100% 100%;
 	}
 
 	100% {
 		background: url("../Pictures/Slideshow1.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
 	}
 }
 
@@ -139,17 +144,29 @@ body{
 @keyframes slide2 {
 	25% {
 		background: url("../Pictures/Slideshow6.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
 	}
 
 	50% {
 		background: url("../Pictures/Slideshow7.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
 	}
 
 	75% {
 		background: url("../Pictures/Slideshow8.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
 	}
 
 	100% {
 		background: url("../Pictures/Slideshow5.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
 	}
+}
+
+.SlideshowTitle{
+	text-align: center;
 }
