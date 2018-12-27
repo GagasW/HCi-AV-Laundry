@@ -2,8 +2,8 @@ function DropdownMenu() {
 	document.getElementById('dropdownContainer').classList.toggle("show");
 }
 
-buat bikin jam mau gua update lagi jgn di apa apain wkwk
-function updateClock() {
+/*buat bikin jam mau gua update lagi jgn di apa apain wkwk*/
+/*function updateClock() {
     var now = new Date();
         months = ['January', 'February', 'March','April','May','June','July','August','September','October','November','December'];
         time = now.getHours() + ':' + now.getMinutes();
@@ -16,7 +16,7 @@ function updateClock() {
 
     setTimeout(updateClock, 1000);
 }
-updateClock();
+updateClock();*/
 
 window.onclick = function(trigger){
 	if (!trigger.target.matches('.dropbtn')) {

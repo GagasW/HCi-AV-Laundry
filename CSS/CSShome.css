@@ -65,10 +65,16 @@ body{
 	font-size: 25px;
 	border: none;
 	cursor: pointer;
+	width: 180px;
 }
+
 
 .dropbtn:hover{
 	background-color: #99c2ff;
+}
+
+.dropbtn:hover .dropdownContents{
+	display:block;
 }
 
 .dropdown{
@@ -80,8 +86,10 @@ body{
 	display: none;
 	position: absolute;
 	background-color: #0066ff;
-	min-width: 160px;
+	/*min-width: 160px;*/
+	width: 180px;
 	text-align: center;
+
 }
 
 .dropdownContents a {
@@ -95,6 +103,8 @@ body{
 .dropdownContents a:hover {
 	background-color: #99c2ff;
 }
+
+
 
 .show{display: block;}
 
