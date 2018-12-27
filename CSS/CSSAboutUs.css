@@ -1,1 +1,154 @@
-CSSAboutUs.css
+body {
+	background: #313131;
+}
+
+ul{
+	background-color:  #3385ff;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	display: inline;
+}
+
+body{
+	margin: 0px;
+	background-image: url("/Pictures/Slideshow1.1.jpg");
+}
+
+
+#logtimContainer{
+	margin-right: 0px;
+	background-color:  #3385ff;
+}
+
+#menuContainer{
+	height: 0px;
+}
+
+#time{
+	float: right;
+	position: relative;
+}
+
+#times{
+	float = right: 
+	margin-top: 25px;
+	font-weight: bolder;
+	font-size: 25px;
+}
+
+.headerUl{
+	text-align: center;
+
+	margin-right: 10px;
+	max-width: 1366px;
+	height: 79px;
+}
+
+.headerLi{
+	display: inline-block;
+	/*padding-top: 30px;*/
+	color: white;
+}
+
+.dropbtn{
+	background-color: #3385ff;
+	color: white;
+	padding: 25px;
+	font-size: 25px;
+	border: none;
+	cursor: pointer;
+	width: 180px;
+}
+
+
+.dropbtn:hover{
+	background-color: #99c2ff;
+}
+
+.dropbtn:hover .dropdownContents{
+	display:block;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdownContents{
+	display: none;
+	position: absolute;
+	background-color: #0066ff;
+	/*min-width: 160px;*/
+	width: 180px;
+	text-align: center;
+
+}
+
+.dropdownContents a {
+	color: white;
+	padding: 10px 10px;
+	min-width: 160px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdownContents a:hover {
+	background-color: #99c2ff;
+}
+
+
+.show{display: block;}
+
+.slider1 {
+	width: 100%;
+	height: 400px;
+	margin: auto;
+	background-repeat: no-repeat;
+	background-size: 450px 400px;
+	background-position: left;
+	
+}
+
+table{
+	background-color: lightblue;
+	width: 60%;
+}
+
+h1{
+	color: lightblue;
+}
+
+.slider2 {
+	width: 100%;
+	height: 400px;
+	margin: auto;
+	background-repeat: no-repeat;
+	background-size: 450px 400px;
+	background-position: center;
+	
+}
+
+h2{
+	color: lightblue;
+}
+
+h3{
+	color: lightblue;
+}
+
+.slider3 {
+	width: 100%;
+	height: 400px;
+	margin: auto;
+	background-repeat: no-repeat;
+	background-size: 450px 400px;
+	background-position: center;
+	
+}
+
+
+
