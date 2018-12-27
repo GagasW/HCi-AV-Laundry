@@ -13,12 +13,18 @@ body{
 	margin: 0px;
 	font-family: Arial;
 	color: white;
+	font-size: 2vw;
+}
+
+.header{
+	font-size: 2vw;
 }
 
 
 #logtimContainer{
 	margin-right: 0px;
 	background-color:  #3385ff;
+	max-width: 100%;
 }
 
 #menuContainer{
@@ -26,7 +32,7 @@ body{
 }
 
 #Briefpict{
-	max-width: 1366px;
+	max-width: 100%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -44,7 +50,7 @@ body{
 #times{
 	margin:  0px;
 	font-weight: bolder;
-	font-size: 25px;
+	font-size: 2vw;
 }
 
 .headerUl{
@@ -64,10 +70,10 @@ body{
 	background-color: #3385ff;
 	color: white;
 	padding: 25px;
-	font-size: 25px;
+	font-size: 2vw;
 	border: none;
 	cursor: pointer;
-	width: 180px;
+	max-width: 180px;
 }
 
 
@@ -89,7 +95,7 @@ body{
 	position: absolute;
 	background-color: #0066ff;
 	/*min-width: 160px;*/
-	width: 180px;
+	max-width: 180px;
 	text-align: center;
 
 }
@@ -97,13 +103,14 @@ body{
 .dropdownContents a {
 	color: white;
 	padding: 10px 10px;
-	min-width: 160px;
+	max-width: 160px;
 	text-decoration: none;
 	display: block;
 }
 
 .dropdownContents a:hover {
 	background-color: #99c2ff;
+	font-size: 2vw;
 }
 
 
@@ -123,7 +130,7 @@ body{
 }
 
 .AdvContents{
-	width: 674.5px;
+	width: 50%;
 	height: 120px;
 	display: inline-block;
 }
@@ -210,7 +217,7 @@ body{
 .FooterContents{
 	margin-top: auto;
 	margin-bottom: auto;
-	width: 674.5px;
+	width: 50%;
 	height: 220px;
 	display: inline-block;
 }
