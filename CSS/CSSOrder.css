@@ -1,4 +1,16 @@
-body {
+ul{
+	background-color:  #3385ff;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	display: inline;
+}
+
+body{
+	color: white;
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
@@ -6,17 +18,207 @@ body {
 	background-size: cover;
 }
 
-.Order {
-	
+@media only screen and (max-width: 700px){
+	.AdvImg{
+		max-width: 10vw;
+		display: block;
+		margin-top: 20%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
+	#ContactHolder{
+		margin-top: 10%;
+	}
+} 
+
+.header{
+	font-size: 2vw;
+}
+
+
+#logtimContainer{
+	margin-right: 0px;
+	background-color:  #3385ff;
+	max-width: 100%;
+}
+
+#menuContainer{
+	height: 0px;
+}
+
+#Briefpict{
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Briefholder{
+	background-color:  aqua;
+}
+
+#time{
+	float: right;
+	position: relative;
+}
+
+#times{
+	margin:  0px;
+	font-weight: bolder;
+	font-size: 2vw;
+}
+
+.headerUl{
+	text-align: center;
+
+	margin-right: 10px;
+	max-width: 1366px;
+	height: 79px;
+}
+
+.headerLi{
+	display: inline-block;
+	padding-top: 30px;
+}
+
+.dropbtn{
+	background-color: #3385ff;
+	color: white;
+	padding: 25px;
+	font-size: 2vw;
+	border: none;
+	cursor: pointer;
+	max-width: 180px;
+}
+
+
+.dropbtn:hover{
+	background-color: #99c2ff;
+}
+
+.dropbtn:hover .dropdownContents{
+	display:block;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdownContents{
+	display: none;
+	position: absolute;
+	background-color: #0066ff;
+	/*min-width: 160px;*/
+	max-width: 180px;
+	text-align: center;
+
+}
+
+.dropdownContents a {
+	color: white;
+	padding: 10px 10px;
+	max-width: 160px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdownContents a:hover {
+	background-color: #99c2ff;
+	font-size: 2vw;
+}
+
+
+
+.show{display: block;}
+
+.SosmedIcon{
+	height: 40px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+
+#IconHolder{
+	text-align: center;
+}
+
+.Footer{
+	background-color: #333333;
+	color: white;
+}
+
+#UpperFooter{
+	height: 220px;
+}
+
+#LowerFooter{
+	height: 60px;
+}
+
+#LowerFooter p{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 10px;
+}
+
+.FooterTitle{
+	text-decoration: underline;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#SosmedTitle{
+	margin-top: 65px;
+}
+
+#Left{
+	float: left;
+}
+
+#ContactHolder{
+	text-align: center;
+}
+
+#ContactHolder p{
+	margin: 0px;
+}
+
+.FooterContents{
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 50%;
+	height: 220px;
+	display: inline-block;
+}
+
+.Order {
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
 	width: 480px;
 	background: #000;
-	position: absolute;
 	left: 50%;
 	top: 50%;
-	transform: translate(-50%, -50%);
+	/*transform: translate(-50%, -50%);*/
 	color: white;
 
+}
+
+.Order img{
+	max-height: 55px;
+	max-width: 55px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 46px;
+	border-bottom: 5px solid pink;
 }
 
 .avatar {
@@ -66,9 +268,11 @@ body {
 	outline: none;
 	color: white;
 	font-size: 15px;
+	max-height: 50px;
 	width: 98%;
 	float: left;
 	margin: 0 1.5px;
+	resize: none;
 	
 }
 
@@ -91,7 +295,7 @@ body {
 	outline: none;
 	color: brown;
 	font-style: bold;
-	font-size: 15px;
+	font-size: 13px;
 	width: 100%;
 	float: left;
 	margin: 5px 0;

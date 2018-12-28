@@ -3,11 +3,39 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="../CSS/CSSOrder.css">
 	<script type="text/javascript" src="../Javascript/JSOrder.js"></script>
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title></title>
 </head>
 <body>
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<div class="header">
+		<div id="menuContainer">
+			<div class="dropdown">
+			<button onclick="DropdownMenu()" class="dropbtn">Menu</button> <!-- DROP DOWN -->
+			<!-- <div class = "dropbtn">Menu</div> -->
+				<div id="dropdownContainer" class="dropdownContents">
+					<a href="Home.html">Home</a>
+					<a href="Gallery.html">Gallery</a>
+					<a href="Order.html">Order</a>
+					<a href="#">Promo</a>
+					<a href="#">About Us</a>
+					<!-- <ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Gallery</a></li>
+						<li><a href="#">Order</a></li>
+						<li><a href="#">Promo</a></li>
+						<li><a href="#">About Us</a></li>
+					</ul> -->
+				</div>
+			</div>
+		</div>
+		<div id="logtimContainer">
+			<ul class="headerUl">
+				<li id="logo" class="headerLi">Test1</li>
+				<li id="time" class="headerLi"><p id="times">Call us! 021-721-9876</p></li>
+			</ul>
+		</div>
+	</div>
 	<div class = "Order">
 		
 		<div class "Title">
@@ -31,7 +59,66 @@
 		<div class = "textbox">
 			<input type="number" placeholder="Quantity (in KGs)" min="0" name="" id="quantityInput" required="">
 		</div>
+		<div class = "PromoCode">
+			<p>Laundry Type</p>
+			<select>
+				<option>Color No-White&Black</option>
+				<option>White Only</option>
+				<option>Black Only</option>
+				<option>White & Black Only</option>
+				<option>Mixed</option>
+			</select>
+		</div>
 
+		<div class = "PromoCode">
+			<p>Detergent</p>
+			<select>
+				<option>Any</option>
+				<option>Boom Floral Scent</option>
+				<option>Boom Lime&Citrus</option>
+				<option>Boom Elegante</option>
+				<option>Rinso Anti Stain</option>
+				<option>Rinso Liquid Mixed Fruit Scent</option>
+				<option>Rinso Color&Care</option>
+				<option>Soklin Lavender</option>
+				<option>Soklin All 1 Floral Scent</option>
+				<option>Soklin Smart Detergent Pine Scent</option>
+				<option>Soklin Smart Detergent Lemon Scent</option>
+				<option>Surf Arabic Heritage</option>
+				<option>Surf Moody Blues</option>
+				<option>Surf Purple Haze</option>
+				<option>Surf Golden Experience</option>
+				<option>Surf Stone Ocean</option>
+				<option>Daia Floral Scent</option>
+				<option>Daia Superstar</option>
+				<option>Daia Violet</option>
+				<option>Daia Pink Flower</option>
+				<option>Attack 10-Hands Power</option>
+				<option>Attack Anti-Stain & Softener</option>									
+			</select>
+		</div>	
+		<div class = "PromoCode">
+			<p>Bleach</p>
+			<select>
+				<option>Any</option>
+				<option>Vanish</option>
+				<option>Soklin</option>
+				<option>MILL</option>
+				<option>Bayclin</option>
+				<option>Bayclin Lemon</option>
+				<option>Rinso Color&Care</option>
+				<option>Soklin Bio-matic</option>
+				<option>Denken Vernel</option>
+				<option>Bayclin Fresh</option>
+				<option>Vanish Oxi Action</option>
+				<option>Cahaya Kimia</option>
+				<option>Soklin Royale</option>
+				<option>Lion Star</option>
+				<option>White Up</option>
+				<option>Astonish</option>
+				<option>Rocket</option>									
+			</select>
+		</div>			
 		<div class = "PromoCode">
 			<p>Choose a Promocode below</p>
 			<select id="promoInput">
@@ -43,6 +130,29 @@
 		<input class="btn" type="button" name="" value="ORDER NOW" onclick="SubmitOrder()">
 
 	</div>
+	<div class="Footer" id="UpperFooter">
+		<div id="Left" class="FooterContents">
+			<h1 class="FooterTitle" id="SosmedTitle">Follow Us on Social Media!</h1>
+			<div id="IconHolder">
+				<a href=""><img src="../Pictures/face.png" class="SosmedIcon"></a>
+				<a href=""><img src="../Pictures/twi.png" class="SosmedIcon"></a>
+				<a href=""><img src="../Pictures/inst.png" class="SosmedIcon"></a>	
+			</div>
+		</div>
+		<div class="AdvContents" id="ContactHolder" class="FooterContents">
+			<h1 class="FooterTitle">Contact Us!</h1>
+			<p>Phone Number (021-721-9876)</p>
+			<p>E-mail (Customercare@AVLaundry.co.id)</p>
+			<p>Whatsapp (085-942-8675)</p><br>
+			<p id="Emphasize">WORKING HOURS</p>
+			<p>Monday - Friday : 08.00 to 22.00</p>
+			<p>Saturday & Sunday: 10.00 to 19.00</p>
+		</div>
+	</div>
+	<div class="Footer" id="LowerFooter">
+		<p>Copyright &copy 2018 AV Laundry. All Right Reserved </p>
+	</div>
+
 
 
 

@@ -44,3 +44,16 @@ function containsNumber(n) {
 function containsCharacter(n) {
 	return /[a-z]/.test(n);
 }
+
+function DropdownMenu() {
+	document.getElementById('dropdownContainer').classList.toggle("show");
+}
+
+window.onclick = function(trigger){
+	if (!trigger.target.matches('.dropbtn')) {
+		var dropdownContainer = document.getElementById('dropdownContainer');
+		if(dropdownContainer.classList.contains('show')){
+			dropdownContainer.classList.remove('show');
+		}
+	}
+}

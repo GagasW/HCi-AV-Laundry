@@ -13,7 +13,7 @@ body{
 	margin: 0px;
 	font-family: Arial;
 	color: white;
-	font-size: 2vw;
+
 }
 
 @media only screen and (max-width: 700px){
@@ -29,6 +29,11 @@ body{
 		margin-top: 10%;
 	}
 } 
+
+#HeaderLogo{
+	max-height: 79px;
+	max-width: 79px;
+}
 
 .header{
 	font-size: 2vw;
@@ -233,5 +238,50 @@ body{
 	margin-bottom: auto;
 	width: 50%;
 	height: 220px;
+	display: inline-block;
+}
+
+/*Home Only*/
+
+.PriDevTitle{
+	width: 100%;
+	text-align: center;
+	background-color: #333333;
+}
+
+.PriDevTitle h1{
+	margin: 0px;
+	padding: 10px;
+}
+
+.PriDevContents h1{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	max-width: 100%;
+	font-size: 16px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.PriDevContents{
+	background-color: #3385ff;
+	text-align: center;
+}
+
+.ContentsTitle{
+	background-color: #333333;
+}
+
+.PricingContent{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 2px solid black;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 24%;
 	display: inline-block;
 }
