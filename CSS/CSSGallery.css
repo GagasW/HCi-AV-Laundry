@@ -16,6 +16,12 @@ li {
 body{
 	margin: 0px;
 	background-image: url("/Pictures/Slideshow1.1.jpg");
+	color: white;
+}
+
+#HeaderLogo{
+	max-height: 79px;
+	max-width: 79px;
 }
 
 
@@ -96,36 +102,105 @@ body{
 
 .show{display: block;}
 
+.SosmedIcon{
+	height: 40px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+
+#IconHolder{
+	text-align: center;
+}
+
+.Footer{
+	background-color: #333333;
+	color: white;
+}
+
+#UpperFooter{
+	height: 220px;
+}
+
+#LowerFooter{
+	height: 60px;
+}
+
+#LowerFooter p{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 10px;
+}
+
+.FooterTitle{
+	text-decoration: underline;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#SosmedTitle{
+	margin-top: 65px;
+}
+
+#Left{
+	float: left;
+}
+
+#ContactHolder{
+	text-align: center;
+}
+
+#ContactHolder p{
+	margin: 0px;
+}
+
+.FooterContents{
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 50%;
+	height: 220px;
+	display: inline-block;
+}
+
 .slider1 {
 	width: 100%;
-	height: 400px;
-	background: url("../Pictures/Slideshow1.jpg");
-	margin: 100px auto;
+	height: 600px;
+	background: url("../Pictures/Toko5.png");
 	animation: slide1 20s infinite;
 	background-repeat: no-repeat;
+	background-size: 100% 600px;
+}
+
+.SlideshowTitle{
+	padding-top: 10px;
 }
 
 @keyframes slide1 {
 	25% {
-		background: url("../Pictures/Slideshow2.jpg");
+		background: url("../Pictures/Toko4.png");
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}
 
 	50% {
-		background: url("../Pictures/Slideshow3.jpg");
+		background: url("../Pictures/Toko3.png");
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}
 
 	75% {
-		background: url("../Pictures/Slideshow4.jpg");
+		background: url("../Pictures/Toko2.png");
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}
 
 	100% {
-		background: url("../Pictures/Slideshow1.jpg");
+		background: url("../Pictures/Toko1.png");
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}
@@ -134,34 +209,69 @@ body{
 
 .slider2 {
 	width: 100%;
-	height: 400px;
-	background: url("../Pictures/Slideshow5.jpg");
-	margin: 100px auto;
-	animation: slide2 20s infinite;
-
+	height: 600px;
+	background: url("../Pictures/WhiteUp.jpg");
+	animation: slide2 60s infinite;
+	background-size: 100% 600px;
 }
 
 @keyframes slide2 {
-	25% {
-		background: url("../Pictures/Slideshow6.jpg");
+	10% {
+		background: url("../Pictures/Mill.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+
+	20% {
+		background: url("../Pictures/Vanish.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+
+	30% {
+		background: url("../Pictures/BayclinLemon.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+
+	40% {
+		background: url("../Pictures/BayclinPutih.jpg");
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}
 
 	50% {
-		background: url("../Pictures/Slideshow7.jpg");
+		background: url("../Pictures/Rinso.jpg");
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}
 
-	75% {
-		background: url("../Pictures/Slideshow8.jpg");
+	60% {
+		background: url("../Pictures/DaiaFloral.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+
+	70% {
+		background: url("../Pictures/DaiaPutih.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+
+	80% {
+		background: url("../Pictures/SoKlinUngu.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+
+	90% {
+		background: url("../Pictures/SoKlinPink.jpg");
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}
 
 	100% {
-		background: url("../Pictures/Slideshow5.jpg");
+		background: url("../Pictures/WhiteUp.jpg");
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}
@@ -170,3 +280,42 @@ body{
 .SlideshowTitle{
 	text-align: center;
 }
+
+@media only screen and (max-width: 700px){
+
+	body{
+		font-size: 2vw;
+	}
+
+	.AdvTitle{
+		font-size: 3vw;
+	}
+
+	.AdvImg{
+		max-width: 10vw;
+		display: block;
+		margin-top: 20%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#ContactHolder{
+		margin-top: 10%;
+	}
+
+	.ContentsTitle h1{
+		font-size: 3vw;
+	}
+
+	.CoverageArea img{
+		max-width: 100%;	
+	}
+
+	.slider1{
+		max-width: 100%;
+	}
+
+	.slider2{
+		max-width: 100%;
+	}
+} 
