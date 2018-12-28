@@ -18,19 +18,11 @@ body{
 	background-size: cover;
 }
 
-@media only screen and (max-width: 700px){
-	.AdvImg{
-		max-width: 10vw;
-		display: block;
-		margin-top: 20%;
-		margin-left: auto;
-		margin-right: auto;
-	}
+#HeaderLogo{
+	max-height: 79px;
+	max-width: 79px;
+}
 
-	#ContactHolder{
-		margin-top: 10%;
-	}
-} 
 
 .header{
 	font-size: 2vw;
@@ -204,7 +196,7 @@ body{
 	margin-left: auto;
 	display: block;
 	width: 480px;
-	background: #000;
+	background-color: #333333;
 	left: 50%;
 	top: 50%;
 	/*transform: translate(-50%, -50%);*/
@@ -218,7 +210,7 @@ body{
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 46px;
-	border-bottom: 5px solid pink;
+	border-bottom: 5px solid #3385ff;
 }
 
 .avatar {
@@ -234,7 +226,7 @@ body{
 .Order h1 {
 	 font-size: 50px;
 	 float: left;
-	 border-bottom: 5px solid pink;
+	 border-bottom: 5px solid #3385ff;
 	 margin-bottom: 15px;
 	 padding: 5px 0;
 	 margin-left: 95px;
@@ -246,7 +238,7 @@ body{
 	padding: 5px 0;
 	font-size: 25px;
 	margin: 5px 0;
-	border-bottom: 2px solid pink;
+	border-bottom: 2px solid #3385ff;
 }
 
 
@@ -263,7 +255,7 @@ body{
 }
 
 .textbox textarea {
-	border: 1px solid pink;
+	border: 1px solid #3385ff;
 	background: none;
 	outline: none;
 	color: white;
@@ -291,9 +283,9 @@ body{
 
 .PromoCode select {
 	border: none;
-	background: pink;
+	background: #3385ff;
 	outline: none;
-	color: brown;
+	color: white;
 	font-style: bold;
 	font-size: 13px;
 	width: 100%;
@@ -303,8 +295,8 @@ body{
 
 .btn {
 	width: 100%;
-	background-color: brown;
-	border: 5px solid pink;
+	background-color: #99c2ff;
+	border: 5px solid #3385ff;
 	color: white;
 	padding: 5px;
 	font-size: 18px;
@@ -318,4 +310,51 @@ body{
 	font-size: 14px;
 	font-family: sans-serif;
 }
+
+@media only screen and (max-width: 700px){
+
+	body{
+		font-size: 2vw;
+	}
+
+	.textbox textarea {
+		max-width: 96%;
+	}
+
+	.AdvImg{
+		max-width: 10vw;
+		display: block;
+		margin-top: 20%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#ContactHolder{
+		padding-top: 10%;
+	}
+
+	.PromoCode select {
+		border: none;
+		background: #3385ff;
+		outline: none;
+		color: white;
+		font-style: bold;
+		font-size: 2vw;
+		max-width: 100%;
+		float: left;
+		margin: 5px 0;
+	}
+
+	.PromoCode option{
+		max-width: 25%;
+	}
+
+	.Order {
+		max-width: 75%;
+		margin-bottom: 10%
+	}
+	.Order h1 {
+		 font-size: 4vw;
+	}
+} 
 
