@@ -13,12 +13,25 @@ body{
 	margin: 0px;
 	font-family: Arial;
 	color: white;
+	font-size: 2vw;
 }
 
+@media only screen and (max-width: 700px){
+	.AdvImg{
+		max-width: 10vw;
+		display: block;
+		margin-top: 20%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
+	#ContactHolder{
+		margin-top: 10%;
+	}
+} 
 
 .header{
-	font-size: 12px;
+	font-size: 2vw;
 }
 
 
@@ -51,7 +64,7 @@ body{
 #times{
 	margin:  0px;
 	font-weight: bolder;
-	font-size: 15px;
+	font-size: 2vw;
 }
 
 .headerUl{
@@ -71,7 +84,7 @@ body{
 	background-color: #3385ff;
 	color: white;
 	padding: 25px;
-	font-size: 15px;
+	font-size: 2vw;
 	border: none;
 	cursor: pointer;
 	max-width: 180px;
@@ -111,7 +124,7 @@ body{
 
 .dropdownContents a:hover {
 	background-color: #99c2ff;
-	font-size: 25px;
+	font-size: 2vw;
 }
 
 
@@ -119,7 +132,7 @@ body{
 .show{display: block;}
 
 .AdvImg{
-	max-width: 100px;
+	max-width: 10vw;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -222,38 +235,3 @@ body{
 	height: 220px;
 	display: inline-block;
 }
-
-@media only screen and (max-width: 700px){
-
-	body{
-		font-size: 2vw;
-	}
-
-	.AdvImg{
-		max-width: 10vw;
-		display: block;
-		margin-top: 20%;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	#ContactHolder{
-		margin-top: 10%;
-	}
-
-	.header{
-		font-size: 3vw;
-	}
-
-	#times{
-		font-size: 2.5vw;
-	}
-
-	.dropbtn{
-		font-size: 4vw;
-	}
-
-	.AdvTitle{
-		font-size: 3.5vw;
-	}
-} 
