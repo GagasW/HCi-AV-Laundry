@@ -16,31 +16,31 @@
 		</div>
 		
 		<div class = "textbox">
-			<input type="text" placeholder="Name" name="">
+			<input type="text" placeholder="Name" name="" id="nameInput" required="">
 		</div>
 
 		<div class = "textbox">
-			<input type="text" placeholder="Phone Number" name="">
+			<input type="text" placeholder="Phone Number" name="" id="phoneInput" required="">
 		</div>
 
 		<div class = "textbox">
 			<!-- <input type="text" placeholder="Address" name=""> -->
-			<textarea cols="15" rows="10" required="" placeholder="Address"></textarea>
+			<textarea cols="15" rows="10" required="" placeholder="Address" id="addressInput" required=""></textarea>
 		</div>
 
 		<div class = "textbox">
-			<input type="number" placeholder="Quantity (in KGs)" min="1" name="">
+			<input type="number" placeholder="Quantity (in KGs)" min="0" name="" id="quantityInput" required="">
 		</div>
 
 		<div class = "PromoCode">
 			<p>Choose a Promocode below</p>
-			<select>
+			<select id="promoInput">
 				<option>White Christmas Promo</option>
 				<option>New Year Promo</option>
 			</select>
 		</div>
 
-		<input class="btn" type="button" name="" value="ORDER NOW">
+		<input class="btn" type="button" name="" value="ORDER NOW" onclick="SubmitOrder()">
 
 	</div>
 
