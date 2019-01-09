@@ -180,31 +180,6 @@ body{
 	padding-top: 10px;
 }
 
-@keyframes slide1 {
-	25% {
-		background: url("../Pictures/Toko4.png");
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-	}
-
-	50% {
-		background: url("../Pictures/Toko3.png");
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-	}
-
-	75% {
-		background: url("../Pictures/Toko2.png");
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-	}
-
-	100% {
-		background: url("../Pictures/Toko1.png");
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-	}
-}
 
 
 .slider2 {
@@ -217,67 +192,6 @@ body{
 	background-size: 100% 600px;
 }
 
-@keyframes slide2 {
-	10% {
-		background: url("../Pictures/Mill.jpg");
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-	}
-
-	20% {
-		background: url("../Pictures/Vanish.jpg");
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-	}
-
-	30% {
-		background: url("../Pictures/BayclinLemon.jpg");
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-	}
-
-	40% {
-		background: url("../Pictures/BayclinPutih.jpg");
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-	}
-
-	50% {
-		background: url("../Pictures/Rinso.jpg");
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-	}
-
-	60% {
-		background: url("../Pictures/DaiaFloral.jpg");
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-	}
-
-	70% {
-		background: url("../Pictures/DaiaPutih.jpg");
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-	}
-
-	80% {
-		background: url("../Pictures/SoKlinUngu.jpg");
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-	}
-
-	90% {
-		background: url("../Pictures/SoKlinPink.jpg");
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-	}
-
-	100% {
-		background: url("../Pictures/WhiteUp.jpg");
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-	}
-}
 
 .SlideshowTitle{
 	text-align: center;
@@ -337,9 +251,15 @@ body{
   display: none;
 }
 
-.tempSlide1 {
-	display: block;
+.mySlides2 {
+  display: none;
 }
+
+.slideshow-container img {
+	width: 100%;
+}
+
+
 
 /* Next & previous buttons */
 .prev, .next {
@@ -355,6 +275,7 @@ body{
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+ /* &#10094;*/
 }
 
 /* Position the "next button" to the right */
@@ -363,11 +284,16 @@ body{
   border-radius: 3px 0 0 3px;
 }
 
+
+
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
+.prev:click {
+	color: 10094;
+}
 /* Caption text */
 .text {
   color: #f2f2f2;
