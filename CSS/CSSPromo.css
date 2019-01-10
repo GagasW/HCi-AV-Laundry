@@ -215,7 +215,7 @@ body{
 }
 
 .mySlides1 {
-  display: block;
+  display: none;
 }
 
 .slideshow-container img {
