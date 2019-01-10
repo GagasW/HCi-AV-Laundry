@@ -72,12 +72,21 @@ function changeDiscount() {
 	tempPromo = e.options[e.selectedIndex].value;
 	
 	
-	if(tempPromo == "White Christmas Promo") {
+	if(tempPromo == "Christmas Promo") {
 		console.log("temp promo = white christmas");
-		disc = 20; //CUMA CONTOH
+		disc = 30; //CUMA CONTOH
 		document.getElementById('discount').innerHTML = disc + "% Discount with promo code " + tempPromo;
-	}else if(tempPromo == "New Year Promo") {
-		disc = 30;
+	}else if(tempPromo == "Birthday Promo") {
+		disc = 100;
+		document.getElementById('discount').innerHTML = disc + "% Discount with promo code " + tempPromo;
+	}else if(tempPromo == "International Laundry Day Promo") {
+		disc = 20;
+		document.getElementById('discount').innerHTML = disc + "% Discount with promo code " + tempPromo;
+	}else if(tempPromo == "White is the new black Promo") {
+		disc = 20;
+		document.getElementById('discount').innerHTML = disc + "% Discount with promo code " + tempPromo;
+	}else if(tempPromo == "Unity in Diversity Promo") {
+		disc = 17;
 		document.getElementById('discount').innerHTML = disc + "% Discount with promo code " + tempPromo;
 	}else {
 		disc = 0;
