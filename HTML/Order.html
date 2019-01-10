@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="../CSS/CSSOrder.css">
-	<script type="text/javascript" src="../Javascript/JSOrder.js"></script>
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title></title>
 </head>
@@ -14,11 +14,11 @@
 			<button onclick="DropdownMenu()" class="dropbtn">Menu</button> <!-- DROP DOWN -->
 			<!-- <div class = "dropbtn">Menu</div> -->
 				<div id="dropdownContainer" class="dropdownContents">
-					<a href="Home.html">Home</a>
+				<a href="Home.html">Home</a>
 					<a href="Gallery.html">Gallery</a>
 					<a href="Order.html">Order</a>
-					<a href="#">Promo</a>
-					<a href="#">About Us</a>
+					<a href="Promo.html">Promo</a>
+					<a href="AboutUs.html">About Us</a>
 					<!-- <ul>
 						<li><a href="#">Home</a></li>
 						<li><a href="#">Gallery</a></li>
@@ -56,7 +56,7 @@
 		</div>
 
 		<div class = "textbox">
-			<input type="number" placeholder="Quantity (in KGs)" min="0" name="" id="quantityInput" required="">
+			<input type="number" placeholder="Quantity (in KGs)" min="0" name="" id="quantityInput" required="" oninput="changePrice()">
 		</div>
 		<div class = "PromoCode">
 			<p>Laundry Type</p>
@@ -96,7 +96,7 @@
 				<option>Attack Anti-Stain & Softener</option>									
 			</select>
 		</div>	
-		<div class = "PromoCode">
+		<div class = "Bleach">
 			<p>Bleach</p>
 			<select>
 				<option>Any</option>
@@ -120,14 +120,22 @@
 		</div>			
 		<div class = "PromoCode">
 			<p>Choose a Promocode below</p>
-			<select id="promoInput">
+			<select id="promoInput" onchange="changeDiscount(); changePrice();">
 				<option>No Promo</option>
 				<option>White Christmas Promo</option>
 				<option>New Year Promo</option>
 			</select>
 		</div>
 
+		<div class = "textbox">
+			<!-- <input type="number" placeholder="Quantity (in KGs)" min="0" name="" id="quantityInput" required=""> -->
+			<!-- <script>changePrice()</script> -->
+			<h6 id = "PriceText">Total Price : 0</h6>
+			<p id = "discount"></p>
+		</div>
+
 		<input class="btn" type="button" name="" value="ORDER NOW" onclick="SubmitOrder()">
+		<!-- <input class="btn" type="button" name="" value="ORDER NOW" onclick="changePrice()"> -->
 
 	</div>
 	<div class="Footer" id="UpperFooter">
@@ -155,6 +163,6 @@
 
 
 
-
+	<script type="text/javascript" src="../Javascript/JSOrder.js"></script>
 </body>
 </html>

@@ -293,6 +293,31 @@ body{
 	margin: 5px 0;
 }
 
+.Bleach {
+	color: white;
+	margin: 30px 0;
+}
+
+.Bleach p {
+	background-color: none;
+	width: 100%;
+	font-style: italic;
+	font-size: 14px;
+	
+}
+
+.Bleach select {
+	border: none;
+	background: #3385ff;
+	outline: none;
+	color: white;
+	font-style: bold;
+	font-size: 13px;
+	width: 100%;
+	float: left;
+	margin: 5px 0;
+}
+
 .btn {
 	width: 100%;
 	background-color: #99c2ff;
@@ -309,6 +334,10 @@ body{
 	opacity: 0.4;
 	font-size: 14px;
 	font-family: sans-serif;
+}
+
+.textbox p {
+	font-size: 14px;
 }
 
 @media only screen and (max-width: 700px){

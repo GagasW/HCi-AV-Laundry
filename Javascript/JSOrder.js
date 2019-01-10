@@ -1,12 +1,16 @@
+
+var tempQuantity, tempPromo,e;
+var disc = 0;
+
 function SubmitOrder() {
 	var tempName = document.getElementById("nameInput").value;
 	var tempPhone = document.getElementById("phoneInput").value;
 	var tempAddress = document.getElementById("addressInput").value;
-	var tempQuantity = document.getElementById("quantityInput").value;
+	tempQuantity = document.getElementById("quantityInput").value;
 	
 	/*var tempPromo = document.getElementById("promoInput").text;*/
-	var e = document.getElementById("promoInput");
-	var tempPromo = e.options[e.selectedIndex].value;
+	e = document.getElementById("promoInput");
+	tempPromo = e.options[e.selectedIndex].value;
 
 	var alertMessage = "ORDER FAILED!\n";
 	if(tempName == "" || tempPhone =="" || tempAddress == "" || tempQuantity =="") { //GK BOLEH KOSONG
@@ -31,7 +35,7 @@ function SubmitOrder() {
 		alertMessage += "Address needs to contain letters and numbers";
 	
 	}else {
-		alertMessage = "SUCCESS!\nYour orders will be processed soon!"
+		alertMessage = "Order has been Queued!\nThank you for your orders!"
 	}
 
 	alert(alertMessage);
@@ -49,6 +53,37 @@ function DropdownMenu() {
 	document.getElementById('dropdownContainer').classList.toggle("show");
 }
 
+function changePrice() {
+	tempQuantity = document.getElementById("quantityInput").value;
+	var totalPrice = tempQuantity * 6000;
+	
+	if(disc != 0) {
+		totalPrice -= totalPrice *(disc/100);
+	}
+	
+	document.getElementById('PriceText').innerHTML = "Total Price : " + totalPrice.toString();
+	/*alert(tempQuantity);*/
+	
+	
+}
+
+function changeDiscount() {
+	e = document.getElementById("promoInput");
+	tempPromo = e.options[e.selectedIndex].value;
+	
+	
+	if(tempPromo == "White Christmas Promo") {
+		console.log("temp promo = white christmas");
+		disc = 20; //CUMA CONTOH
+	}else if(tempPromo == "New Year Promo") {
+		disc = 30;
+	}else {
+		disc = 0;
+	}
+	document.getElementById('discount').innerHTML = disc + "% Discount with promo code " + tempPromo;
+	console.log("selection triggered");
+}
+
 window.onclick = function(trigger){
 	if (!trigger.target.matches('.dropbtn')) {
 		var dropdownContainer = document.getElementById('dropdownContainer');
@@ -57,3 +92,4 @@ window.onclick = function(trigger){
 		}
 	}
 }
+
