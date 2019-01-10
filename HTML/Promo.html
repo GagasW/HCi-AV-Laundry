@@ -2,9 +2,105 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="../CSS/CSSPromo.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="../Javascript/JSPromo.js"></script>
 	<title></title>
 </head>
 <body>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<div class="header">
+		<div id="menuContainer">
+			<div class="dropdown">
+				<button onclick="DropdownMenu()" class="dropbtn">Menu</button> <!-- DROP DOWN -->
+				<!-- <div class = "dropbtn">Menu</div> -->
+				<div id="dropdownContainer" class="dropdownContents">
+					<a href="Home.html">Home</a>
+					<a href="Gallery.html">Gallery</a>
+					<a href="Order.html">Order</a>
+					<a href="#">Promo</a>
+					<a href="#">About Us</a>
+					<!-- <ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Gallery</a></li>
+						<li><a href="#">Order</a></li>
+						<li><a href="#">Promo</a></li>
+						<li><a href="#">About Us</a></li>
+					</ul> -->
+				</div>
+			</div>
+		</div>
+		<div id="logtimContainer">
+			<ul class="headerUl">
+				<img src="../Pictures/Logo.png" id="HeaderLogo">
+			</ul>
+		</div>
+	</div>
+	<h1 class="SlideshowTitle">Some Of Our Store</h1>
+	<!-- <div class="slider1"></div> -->
 
+	<!-- Slideshow 1 -->
+	<div class="slideshow-container">
+
+		<!-- Full-width images with number and caption text -->
+
+
+		<div class="mySlides1 fade">
+			<div class="numbertext">1 / 5</div>
+			<img src="../Pictures/Toko5.png" >
+			<div class="text">Cabang kami yang berada di Jl Tebet Brt II 9,Tebet Barat no 45</div> <!-- CAPTIONNNNN -->
+		</div>
+
+		<div class="mySlides1 fade">
+			<div class="numbertext">2 / 5</div>
+			<img src="../Pictures/Toko4.png">
+			<div class="text">Cabang kami yang berada di Jl Boulevard Artha Gading Kompl Gading Bukit Indah Bl Q/15</div> <!-- CAPTIONNNNN -->
+		</div>
+
+		<div class="mySlides1 fade">
+			<div class="numbertext">3 / 5</div>
+			<img src="../Pictures/Toko3.png">
+			<div class="text">Cabang kami yang berada di Jl Palmerah Brt 21 O,Gelora no.67</div> <!-- CAPTIONNNNN -->
+		</div>
+
+		<div class="mySlides1 fade">
+			<div class="numbertext">4 / 5</div>
+			<img src="../Pictures/Toko2.png">
+			<div class="text">Cabang kami yang berada di Jl Pegangsaan Indah Brt Kompl Pondok Gading Utama Bl C/33,Pegangsaan Dua</div> <!-- CAPTIONNNNN -->
+		</div>
+
+		<div class="mySlides1 fade">
+			<div class="numbertext">5 / 5</div>
+			<img src="../Pictures/Toko1.png">
+			<div class="text">Cabang kami yang berada di Jl Kwitang Raya 8 Ged Senatama Lt 2,Kwitang</div> <!-- CAPTIONNNNN -->
+		</div>
+
+		
+		<a class="prev" onclick="plusSlides(-1,0)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1,0)">&#10095;</a>
+	</div>
+	<!-- FOOTER -->	
+	<!-- ========================================================================================== -->
+	<div class="Footer" id="UpperFooter">
+		<div id="Left" class="FooterContents">
+			<h1 class="FooterTitle" id="SosmedTitle">Follow Us on Social Media!</h1>
+			<div id="IconHolder">
+				<a href=""><img src="../Pictures/face.png" class="SosmedIcon"></a>
+				<a href=""><img src="../Pictures/twi.png" class="SosmedIcon"></a>
+				<a href=""><img src="../Pictures/inst.png" class="SosmedIcon"></a>	
+			</div>
+		</div>
+		<div class="AdvContents" id="ContactHolder" class="FooterContents">
+			<h1 class="FooterTitle">Contact Us!</h1>
+			<p>Phone Number (021-721-9876)</p>
+			<p>E-mail (Customercare@AVLaundry.co.id)</p>
+			<p>Whatsapp (085-942-8675)</p><br>
+			<p id="Emphasize">WORKING HOURS</p>
+			<p>Monday - Friday : 08.00 to 22.00</p>
+			<p>Saturday & Sunday: 10.00 to 19.00</p>
+		</div>
+	</div>
+	<div class="Footer" id="LowerFooter">
+		<p>Copyright &copy 2018 AV Laundry. All Right Reserved </p>
+	</div>
 </body>
 </html>

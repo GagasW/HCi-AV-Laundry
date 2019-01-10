@@ -105,7 +105,7 @@ body{
 
 .Story1 {
 	width: 75%;
-	
+	vertical-align: center;
 	margin: auto;
 	padding-top: 25px;
 	background-repeat: no-repeat;
@@ -123,7 +123,7 @@ h1{
 
 .Story2 {
 	width: 75%;
-	
+
 	padding-top: 25px;
 	background-repeat: no-repeat;
 	background-size: 450px 400px;
@@ -151,7 +151,6 @@ h1{
 
 .Story4 {
 	width: 75%;
-	
 	margin: auto;
 	padding-top: 25px;
 	background-repeat: no-repeat;
@@ -161,6 +160,3 @@ h1{
 	padding-left: 50px;
 	text-align: left;
 }
-
-
-

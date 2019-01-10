@@ -1,1 +1,331 @@
-CSSPromo.css
+ul{
+	background-color:  #3385ff;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	display: inline;
+}
+
+body{
+	margin: 0px;
+	font-family: Arial;
+	color: white;
+	background-image: url("/Pictures/Slideshow1.1.jpg");
+
+}
+
+#HeaderLogo{
+	max-height: 79px;
+	max-width: 79px;
+}
+
+.header{
+	font-size: 2vw;
+}
+
+
+#logtimContainer{
+	margin-right: 0px;
+	background-color:  #3385ff;
+	max-width: 100%;
+}
+
+#menuContainer{
+	height: 0px;
+}
+
+#Briefpict{
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Briefholder{
+	background-color:  aqua;
+}
+
+#time{
+	float: right;
+	position: relative;
+}
+
+#times{
+	margin:  0px;
+	font-weight: bolder;
+	font-size: 2vw;
+}
+
+.headerUl{
+	text-align: center;
+
+	margin-right: 10px;
+	max-width: 1366px;
+	height: 79px;
+}
+
+.headerLi{
+	display: inline-block;
+	padding-top: 30px;
+}
+
+.dropbtn{
+	background-color: #3385ff;
+	color: white;
+	padding: 25px;
+	font-size: 2vw;
+	border: none;
+	cursor: pointer;
+	max-width: 180px;
+}
+
+
+.dropbtn:hover{
+	background-color: #99c2ff;
+}
+
+.dropbtn:hover .dropdownContents{
+	display:block;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdownContents{
+	display: none;
+	position: absolute;
+	background-color: #0066ff;
+	/*min-width: 160px;*/
+	max-width: 180px;
+	text-align: center;
+
+}
+
+.dropdownContents a {
+	color: white;
+	padding: 10px 10px;
+	max-width: 160px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdownContents a:hover {
+	background-color: #99c2ff;
+	font-size: 2vw;
+}
+
+
+
+.show{display: block;}
+
+.SosmedIcon{
+	height: 40px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+
+#IconHolder{
+	text-align: center;
+}
+
+.Footer{
+	background-color: #333333;
+	color: white;
+}
+
+#UpperFooter{
+	height: 220px;
+}
+
+#LowerFooter{
+	height: 60px;
+}
+
+#LowerFooter p{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 10px;
+}
+
+.FooterTitle{
+	text-decoration: underline;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#SosmedTitle{
+	margin-top: 65px;
+}
+
+#Left{
+	float: left;
+}
+
+#ContactHolder{
+	text-align: center;
+}
+
+#ContactHolder p{
+	margin: 0px;
+}
+
+.FooterContents{
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 50%;
+	height: 220px;
+	display: inline-block;
+}
+
+/*=================================================*/
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 75%;
+  position: relative;
+  margin: auto;
+  max-height: 25%;
+  background-color: white;
+}
+
+.slideshow-container .text {
+     color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  font-size: 145%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.mySlides1 {
+  display: block;
+}
+
+.slideshow-container img {
+	width: 100%;
+}
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #232323;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+ /* &#10094;*/
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.prev:click {
+	color: 10094;
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 700px){
+
+	body{
+		font-size: 2vw;
+	}
+
+	#ContactHolder{
+		margin-top: 10%;
+	}
+
+	.ContentsTitle h1{
+		font-size: 3vw;
+	}
+
+	.CoverageArea img{
+		max-width: 100%;	
+	}
+} 
