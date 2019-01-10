@@ -1,5 +1,5 @@
 body {
-	background: #313131;
+	background: white;
 }
 
 ul{
@@ -17,6 +17,22 @@ body{
 	margin: 0px;
 	background-image: url("/Pictures/Slideshow1.1.jpg");
 }
+
+#logo {
+max-width: 5vw;
+}
+
+#aboutTitle{
+	background-color: #333333;
+	max-width: 100%;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 7px;
+	padding-bottom:7px;
+}
+
+
 
 
 #logtimContainer{
@@ -44,7 +60,7 @@ body{
 	text-align: center;
 
 	margin-right: 10px;
-	max-width: 1366px;
+	max-width: 100%;
 	height: 79px;
 }
 
@@ -103,60 +119,244 @@ body{
 
 .show{display: block;}
 
-.Story1 {
-	width: 75%;
-	vertical-align: center;
+
+.AdvImg{
+	max-width: 20vw;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	float:right;
+
+}
+
+.AdvHolder{
+	max-width: 900px;
+	height: 210px;
+	margin-top: 15px
+	padding : auto;
+	
+
+}
+
+.AdvHolder .AdvContents{
+	
 	margin: auto;
+	
+}
+
+
+.AdvContents{
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 40%;
+	height: 200px;
+	display: inline-block;
+	margin-top: 15px
+	
+
+}
+
+.FirstAdv{
+	padding-top: 10px;
+	padding-left: 40px;
+	margin-left: 25px;
+}
+#One{
+	float: left;
+	
+}
+
+.AdvHolder p{
+	margin-top: 20px;
+	padding-left: 15px;
+	font-family: arial;
+}
+
+#NeedBGColor{
+	background-color: white;
+	}
+
+/*================================================================*/
+#NeedBG1Color{
+	background-color: white;
+	}
+
+
+	.AdvImg1{
+	max-width: 25vw;
+	padding: 10px;
+	float: right;
+	margin-left: 10px;
+
+
+}
+
+.AdvHolder1{
+	max-width: 900px;
+	height: 210px;
+	margin-top: 15px
+	padding : auto;
+	
+}
+.AdvContents1{
+	padding-left: 20px;
+	margin-right: 100px;
+	height: 150px;
+	display: inline-block;
+	margin-left: 100px;
+	background-color: white;
+	
+
+}
+
+.FirstAdv1{
+	padding-top: 10px;
+	padding-left: 10px;
+	margin-right: 15px;
+
+}
+#One1{
+	float: right;
+	
+}
+
+.AdvHolder p{
+	margin-top: 20px;
+	padding-left: 15px;
+}
+
+.SosmedIcon{
+	height: 40px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+
+#IconHolder{
+	text-align: center;
+}
+
+.Footer{
+	background-color: #333333;
+	color: white;
+	max-width: 100%;
+}
+
+#UpperFooter{
+	height: 220px;
+}
+
+#LowerFooter{
+	height: 60px;
+}
+
+#LowerFooter p{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 10px;
+}
+
+.FooterTitle{
+	text-decoration: underline;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#SosmedTitle{
+	margin-top: 65px;
+}
+
+#Left{
+	float: left;
+}
+
+#ContactHolder{
+	text-align: center;
+}
+
+#ContactHolder p{
+	margin: 0px;
+}
+
+.FooterContents{
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 50%;
+	height: 220px;
+	display: inline-block;
+}
+
+/*================================================================*/
+h1{
+	color: white;
+}
+
+.Story1 {
+	width: 65%;
+	height: 200px;
+	margin-left: 300px;
 	padding-top: 25px;
+	padding-right: 25px;
 	background-repeat: no-repeat;
 	background-size: 450px 400px;
-	background-position: left;
-	background-color: lightblue;
+	background-color: white;
 	padding-left: 50px;
-	text-align: left;
+	text-align: center;
+	float: center;
+	
 }
 
 
-h1{
-	color: lightblue;
-}
+
 
 .Story2 {
-	width: 75%;
-
+	
+	height: 600px;
+	
+	
 	padding-top: 25px;
+	padding-right: 25px;
 	background-repeat: no-repeat;
-	background-size: 450px 400px;
-	background-position: left;
-	background-color: lightblue;
+	background-size: 400px 450px;
+	background-color:  #3385ff;
 	padding-left: 50px;
-	text-align: left;
+	text-align: center;
+	float: center;
 	
 }
 
+/*================================================================*/
 
-.Story3 {
-	width: 75%;
-	
-	margin: auto;
-	padding-top: 25px;
-	background-repeat: no-repeat;
-	background-size: 450px 400px;
-	background-position: left;
-	background-color: lightblue;
-	padding-left: 50px;
-	text-align: right;
-	
-}
 
 .Story4 {
-	width: 75%;
-	margin: auto;
+	
+	height: 300px;
+	margin-top: 30px;
 	padding-top: 25px;
+	margin-bottom: 30px;
 	background-repeat: no-repeat;
 	background-size: 450px 400px;
 	background-position: left;
-	background-color: lightblue;
+	background-color:  #3385ff;
 	padding-left: 50px;
 	text-align: left;
+}
+
+.Story1 p{
+	font-family: arial;
+	
+}
+
+.Story4 p{
+	font-family: arial;
+}
+
+.putih{
+	color: white;
 }
