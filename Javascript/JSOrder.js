@@ -75,12 +75,15 @@ function changeDiscount() {
 	if(tempPromo == "White Christmas Promo") {
 		console.log("temp promo = white christmas");
 		disc = 20; //CUMA CONTOH
+		document.getElementById('discount').innerHTML = disc + "% Discount with promo code " + tempPromo;
 	}else if(tempPromo == "New Year Promo") {
 		disc = 30;
+		document.getElementById('discount').innerHTML = disc + "% Discount with promo code " + tempPromo;
 	}else {
 		disc = 0;
+		document.getElementById('discount').innerHTML = "";
 	}
-	document.getElementById('discount').innerHTML = disc + "% Discount with promo code " + tempPromo;
+	
 	console.log("selection triggered");
 }
 
